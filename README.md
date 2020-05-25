@@ -20,3 +20,40 @@ allprojects {
 	}
   ```
   
+#### Usage 
+To start a new activity from an activity 
+```
+    startActivityEtx<SecondActivivty>()
+```    
+
+To start a new activity from fragment
+```
+    activity?.startActivityEtx<SecondActivivty>()
+```    
+
+To check network connectivity 
+``` 
+   {activity/fragment/context}.hasNetwork()
+```
+
+##### Common View Etx 
+``` 
+View.gone()
+```
+
+```
+View.invisible()
+```
+```
+View.visible()
+```
+```
+View.isVisible()
+```
+```
+View.isGone()
+```
+```
+View.isInvisible()
+```
+
