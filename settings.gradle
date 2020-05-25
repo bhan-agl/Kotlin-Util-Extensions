@@ -1,0 +1,3 @@
+rootProject.name='Utility Extension Demo'
+include ':app'
+include ':utility-etx'
